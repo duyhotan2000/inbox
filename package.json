@@ -1,0 +1,34 @@
+{
+  "author": {
+    "name": "Andris Reinman"
+  },
+  "bugs": {
+    "url": "https://github.com/duyhotan2000/inbox/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "mimelib": "*",
+    "utf7": "~1.0.0",
+    "xoauth2": "*"
+  },
+  "deprecated": false,
+  "description": "This is a work in progress IMAP client for node.js.",
+  "devDependencies": {
+    "hoodiecrow": "~1.1.19",
+    "nodeunit": "*"
+  },
+  "homepage": "https://github.com/duyhotan2000/inbox",
+  "license": "MIT",
+  "main": "lib/client.js",
+  "maintainers": [
+    {
+      "name": "andris",
+      "email": "andris@node.ee"
+    }
+  ],
+  "name": "inbox",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "version": "1.1.59"
+}
